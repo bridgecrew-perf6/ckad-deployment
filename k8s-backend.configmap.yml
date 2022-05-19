@@ -8,6 +8,6 @@ metadata:
 data:
   DB_HOST: "mysql-database-service"
   DB_USER: "root"
-  PORT: "8090"
+  PORT: "3000"
 
   

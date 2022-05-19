@@ -21,13 +21,13 @@ spec:
       containers:
       - name:  ramp-up-database
         image:  mysql:5.7.38
-        resources:
-          requests:
-            cpu: 1000m
-            memory: 500Mi
-          limits:
-            cpu: 1500m
-            memory: 800Mi
+        #resources:
+        #  requests:
+        #    cpu: 1000m
+        #    memory: 500Mi
+        #  limits:
+        #    cpu: 1500m
+        #    memory: 800Mi
         livenessProbe:
           tcpSocket:
             port: 3306

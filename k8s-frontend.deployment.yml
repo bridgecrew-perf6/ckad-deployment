@@ -19,13 +19,6 @@ spec:
       containers:
       - name:  frontend
         image:  burnedduke36/ckad-front:latest
-        resources:
-          requests:
-            cpu: 1000m
-            memory: 100Mi
-          limits:
-            cpu: 1000m
-            memory: 100Mi
         livenessProbe:
           httpGet:
             path: /
